@@ -79,7 +79,6 @@ namespace Netick.Transport
 
         public override void PollEvents()
         {
-
             if (Server)
             {
                 _steamworksServer?.Receive();
@@ -110,6 +109,7 @@ namespace Netick.Transport
 
         void ISocketManager.OnDisconnected(Connection connection, ConnectionInfo info)
         {
+            NetworkPeer.OnDisconnected(InternalConnections[connection]);
             InternalConnections.Remove(connection);
         }
 
