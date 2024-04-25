@@ -1,5 +1,7 @@
 # Netick-Facepunch-Transport
  A Transport class for Netick that uses SteamNetworkingSockets with Facepunch.Steamworks
+
+THIS PROJECT IS FOR NETICK 1. FOR THE UPDATED NETICK 2 VERSION, CHECK HERE: https://github.com/Milk-Drinker01/Netick2-Facepunch-Transport
  
  Credits: 
   - me: Facepunch.Steamworks SteamNetworkingSockets example, Better (IMO) FPS demo scene
